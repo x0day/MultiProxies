@@ -1,4 +1,6 @@
 MultiProxies
 ============
 
-release at 2014.9.2
+install requests first.
+
+python 2.7+
