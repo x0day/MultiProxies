@@ -57,5 +57,5 @@ class ModuleClass:
         rhosts = retRhosts(rhosts)
         if rhosts:
             color.echo("[*] all seems fine. go!", GREEN)
-        argsLst = self.retArgs(rhosts, ports, timeout)
-        threadsDo(self.portscan, threads, argsLst)
+            argsLst = self.retArgs(rhosts, ports, timeout)
+            threadsDo(self.portscan, threads, argsLst)
